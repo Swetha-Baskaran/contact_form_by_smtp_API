@@ -1,0 +1,89 @@
+body {
+            padding: 0;
+            margin: 0;
+            background: #e0e0e0a8;
+        }
+        
+        .row {
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        h1 {
+            width: 385px;
+            height: 68px;
+            font-size: 14.5px;
+            padding: 0px 20px;
+            color: #0c1d77;
+            border: none;
+            margin: 12px 0px;
+            border-radius: 20px 0px;
+            background: #ffffff30;
+            outline: none;
+            box-shadow: inset 0px -1px 8px 2px white, inset 2px 2px 4px 1px #0000008f;
+            line-height: 65.2px;
+            font-family: -webkit-pictograph;
+            font-size: x-large;
+            text-transform: uppercase;
+            text-align: center;
+            color: #969494;
+            margin-bottom: 27px;
+        }
+        
+        input {
+            width: 385px;
+            height: 45px;
+            font-size: 14.5px;
+            padding: 0px 20px;
+            color: #0c1d77;
+            border: none;
+            margin: 12px 0px;
+            border-radius: 20px 0px;
+            background: #ffffff30;
+            outline: none;
+            box-shadow: 0px -1px 8px 2px white, 2px 2px 4px 1px #000000b8;
+        }
+        
+        #submit {
+            width: 414px;
+            height: 40px;
+            font-size: 18.5px;
+            padding: 0px 20px;
+            color: #ffffff;
+            border: none;
+            margin: 12px 0px;
+            border-radius: 20px 0px;
+            background: #8bd23a;
+            outline: none;
+            box-shadow: inset 0px -1px 6px 0px #ffffff36, inset 2px 2px 9px 0px #00000094;
+            text-transform: uppercase;
+        }
+        
+        textarea {
+            width: 383px;
+            margin: 30px 0px;
+            border: none;
+            border-radius: 20px 0px;
+            font-size: 16px;
+            padding: 20px;
+            font-family: -webkit-pictograph;
+            height: 81px;
+            background: #ffffff30;
+            outline: none;
+            box-shadow: 0px -1px 8px 2px white, 2px 2px 4px 1px #000000;
+            color: #0c1d77;
+        }
+        
+        @media (max-width:500px) {
+            textarea,
+            input,
+            h1,
+            #submit {
+                width: 244px;
+            }
+            #submit {
+                width: 276px;
+            }
+        }
