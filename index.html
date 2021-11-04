@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smtp-Mail-Project</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+
+    <div class="container">
+        <form class="form">
+            <div class="row">
+                <div class="col">
+                    <h1>contact info</h1>
+                </div>
+                <div class="col"><input type="text" placeholder="Name" id="name" class="input" required></div>
+                <div class="col"><input type="email" placeholder="Email" id="email" class="input" required></div>
+                <div class="col"><input type="subject" placeholder="Subject" id="subject" class="input"></div>
+
+
+                <div class="col">
+                    <textarea placeholder="Message" id="textarea" required></textarea>
+                </div>
+
+
+                <div class="col">
+                    <input type="submit" id="submit" value="submit">
+                </div>
+
+            </div>
+
+        </form>
+    </div>
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
