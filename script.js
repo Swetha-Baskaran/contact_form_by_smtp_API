@@ -1,10 +1,10 @@
+var submit = document.querySelector("#submit")
 let send_mail = () => {
 
-  var submit = document.querySelector("#submit")
-  let namee = document.querySelector("#name")
-  let email = document.querySelector("#email")
-  let subject = document.querySelector("#subject")
-  let message = document.querySelector("#textarea")
+  let namee = document.querySelector("#name").value
+  let email = document.querySelector("#email").value
+  let subject = document.querySelector("#subject").value
+  let message = document.querySelector("#textarea").value
 
        Email.send({
        Host: "smtp.gmail.com",
